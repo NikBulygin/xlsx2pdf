@@ -1,0 +1,18 @@
+{
+    "default_out": "./out",
+    "libreoffice_calc_path" "C:\\Program Files\\LibreOffice\\program\\scalc.exe",
+    "default_metadata": {
+        "Title": "report_name",
+        "Author": "ReportGenerator",
+        "Subject": "ReportName",
+        "Creator": "ReportGenerator",
+    },
+    "reports": [
+        {
+            "report_name": "test",
+            "path_to_report": "./template_example/test.xlsx",
+            "path_to_py_module": "./template_example/test.py",
+            "path_to_watermark": "./template_example/watermark.pdf"
+        }
+    ]
+}
